@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+        <a href="" class="logo">
+            <img class="img-logo" src="./assets/Logo.svg" alt="logo">
+        </a>
+        <ul class="menu">
+            <li class="menu-item">
+                <a class="menu-link" href="">Main</a></li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Rates</a></li>
+            <li class="menu-item">
+                <a class="menu-link" href="">Create Account</a></li>
+        </ul>
+        <img class="menu-icon" src="./assets/menu-burger.svg" alt="menu-icon">
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-wrapper">
+                <div class="main-info">
+                    <h1 class="main-title">Markup achievement</h1>
+                    <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                    <button class="button">Learn More</button>
+                </div>
+                <img class="main-img" src="./assets/image.png" alt="image">
+            </div>
+        </div>
+    </section>
+
+    <section class="rates-sec">
+        <div class="container">
+            <div class="rates-wrap">
+        <h2 class="title">Rates</h2>
+        <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+                <div class="table-wrapper">
+        <table class="table">
+            <tr>
+                <th class="table-subtitle gray">Features</th>
+                <th class="table-title">Standart</th>
+                <th class="table-title">Plus</th>
+                <th class="table-title">PRO</th>
+            </tr>
+            <tr>
+                <th class="table-subtitle">Theory</th>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+            </tr>
+            <tr>
+                <th class="table-subtitle">Practice</th>
+                <td><img src="./assets/Close.svg" alt="x"></td>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+            </tr>
+            <tr>
+                <th class="table-subtitle">Code review</th>
+                <td><img src="./assets/Close.svg" alt="x"></td>
+                <td><img src="./assets/Close.svg" alt="x"></td>
+                <td><img src="./assets/Check.svg" alt="v"></td>
+            </tr>
+            <tr class="table-footer">
+                <th class="table-subtitle"><a href="" class="table-link">Have questions?</a></th>
+                <td><button class="table-button">Get now</button></td>
+                <td><button class="table-button active">Get now</button></td>
+                <td><button class="table-button">Get now</button></td>
+            </tr>
+        </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="casec">
+        <div class="container">
+            <div class="acc-wrapper">
+                <div class="cyfa-wrap">
+            <h2 class="title">Create your free account</h2>
+            <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p>
+            <ul class="list">
+                <li class="list-item">Easy setup, fast start</li>
+                <li class="list-item">Free forever for core features</li>
+                <li class="list-item">14-day trial of premium features</li>
+            </ul>
+                </div>
+
+            <form>
+                <input placeholder="Full name*" type="text">
+                <div class="fields-wrap">
+                <input placeholder="Email*" type="email">
+                <input placeholder="Password*" type="password">
+                <input type="date">
+
+                <select>
+                    <option selected disabled>Country</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                </select>
+                </div>
+                <div class="stuck">
+                <label for="front">
+                    <input id="front" type="radio" name="stack" checked>
+                    Frontend
+                </label>
+                <label for="back">
+                    <input id="back" type="radio" name="stack">
+                    Backend
+                </label>
+                </div>
+                <fieldset>
+                    <legend>Favorite Technologies</legend>
+                <label for="HTML">
+                    <input id="HTML" type="checkbox" name="HTML" checked>
+                    HTML
+                </label>
+                <label for="CSS">
+                    <input id="CSS" type="checkbox" name="CSS">
+                    CSS
+                </label>
+                <label for="React">
+                    <input id="React" type="checkbox" name="React">
+                    React
+                </label>
+                <label for="sc">
+                    <input id="sc" type="checkbox" name="sc">
+                    Styled components
+                </label>
+                </fieldset>
+                <textarea placeholder="Something else about you..."></textarea>
+                <button class="button" type="submit" value="registration">registration</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <small>Copyright © 2023. All rights reserved.</small>
+        <!-- <span>Copyright © 2023. All rights reserved.</span> -->
+    </footer>
+</body>
+</html>
